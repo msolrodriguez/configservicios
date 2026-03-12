@@ -1,10 +1,6 @@
 spring:
   application:
     name: servicio-formacion
-  cloud:
-    config:
-      uri: http://localhost:8888 # Localizacion Spring Cloud Config
-
 eureka:
   client:
     serviceUrl:
@@ -13,3 +9,4 @@ eureka:
     prefer-ip-address: true     
 server:
     port: 9000
+
